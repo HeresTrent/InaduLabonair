@@ -1,0 +1,8 @@
+local args = {
+    [1] = "Inadu Labonair",
+    [2] = "Outfit1",
+    [3] = "Inadu Labonair",
+    [4] = false
+}
+
+game:GetService("ReplicatedStorage").Events.CharacterChange:FireServer(unpack(args))
